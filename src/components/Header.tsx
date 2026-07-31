@@ -1,15 +1,15 @@
-interface HeaderProps {
-  title: string;
-  subtitle: string;
+type HeaderProps = {
+    title: string;
+    subtitle: string;
 }
 
-const Header = ({ title, subtitle }: HeaderProps) => {
-  return (
-    <header>
-      <h1>{title}</h1>
-      <p>{subtitle}</p>
-    </header>
-  );
+const Header = ({title, subtitle}: HeaderProps) => {
+    return (
+        <header>
+            <h1>{title}</h1>
+            <p>{subtitle}</p>
+        </header>
+    );
 };
 
 export default Header;
