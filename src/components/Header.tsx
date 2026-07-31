@@ -1,6 +1,19 @@
-const Header = () => {
+class HeaderProps {
+    title: string;
+    subtitle: string;
+
+    constructor(title: string, subtitle: string) {
+        this.title = title;
+        this.subtitle = subtitle;
+    }
+}
+
+const Header = ({ title, subtitle} : HeaderProps) => {
   return (
-    <h1>To Do App</h1>
+      <head>
+        <h1>{title}</h1>
+        <div>{subtitle}</div>
+     </head>
   )
 }
 
