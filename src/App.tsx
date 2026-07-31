@@ -1,11 +1,14 @@
 import './App.css'
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <div>
-      <h1>To_Do | ! To_Do</h1>
+      <Header/>
       <p>Go easy on me, as I am new to React</p>
+      <Footer/>
     </div>
   )
 }
