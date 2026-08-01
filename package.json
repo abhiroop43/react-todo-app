@@ -13,8 +13,11 @@
   "dependencies": {
     "@astryxdesign/core": "^0.2.0",
     "@astryxdesign/theme-neutral": "^0.2.0",
+    "@astryxdesign/theme-y2k": "^0.2.0",
+    "@tailwindcss/vite": "^4.3.3",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@astryxdesign/cli": "^0.2.0",
