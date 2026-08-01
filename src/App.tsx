@@ -4,6 +4,7 @@ import Header from './components/Header';
 import {Button} from '@astryxdesign/core/Button';
 import {HStack, VStack} from '@astryxdesign/core/Layout';
 import {useState} from "react";
+import TodoItem from "./components/TodoItem.tsx";
 
 function App() {
     const [todos, setTodos] = useState<string[]>([]);
@@ -28,6 +29,8 @@ function App() {
                         setTodos([])
                     }}/>
                 </HStack>
+
+                <TodoItem id={1} title="This is a test" description="Lorem ipsum dolor sit amet"/>
             </main>
             <Footer/>
         </VStack>
